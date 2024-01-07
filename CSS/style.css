@@ -14,12 +14,11 @@ img {
     opacity: 80%;
 }
 
-body {
+body{
     display: flex;
-    width: 99%;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .clock {
@@ -33,18 +32,20 @@ body {
 
 #clock {
     float: left;
+    text-shadow: 0px 0px black, 1px 0px black, 1px 0px black, 0px 0px black;
     margin-left: 20%;
 }
 
 #UtahClock {
     float: right;
+    text-shadow: 0px 0px black, 1px 0px black, 1px 0px black, 0px 0px black;
     margin-right: 20%;
 }
 
 #login-form input {
-    margin-top: 50%;
-    margin-bottom: 20%;
     padding: 10px;
+    margin-top: 10%;
+    margin-bottom: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -56,7 +57,8 @@ body {
 
 #todo-form input {
     padding: 10px;
-    width: 100%;
+    margin-top: 10%;
+    width: 200px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -75,16 +77,16 @@ body {
 }
 
 #quote {
-    color: black;
+    color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-shadow: -1px 0px yellow, 0px 1px yellow, 1px 0px yellow, 0px -1px yellow;
-    ;
+    text-shadow: 0px 0px black, 1px 0px black, 1px 0px black, 0px 0px black;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     position: absolute;
     bottom: 10%;
+    
 }
 
 #quote span {
@@ -93,4 +95,7 @@ body {
 
 #weather {
     color: white;
+    text-shadow: 0px 0px black, 1px 0px black, 1px 0px black, 0px 0px black;
+    font-weight: bold;
+    font-size: 24px;
 }
