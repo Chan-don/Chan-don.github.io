@@ -17,7 +17,7 @@ function getUtahClock() {
     const minutes = String(utahTime.getMinutes()).padStart(2, "0");
     const seconds = String(utahTime.getSeconds()).padStart(2, "0");
 
-    UtahClock.innerText = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+    UtahClock.innerText = `Now Utah: ${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 }
 
 getUtahClock();
